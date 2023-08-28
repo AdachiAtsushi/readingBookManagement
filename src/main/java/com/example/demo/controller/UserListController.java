@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserListController {
-	
-	@GetMapping("/userList")
-    public String userList() {
-      return "Hello world!";
-    }
 
+	@GetMapping("/userList")
+	public String userList() {
+		System.out.println("てすと");
+		return "Hello world!";
+	}
 }
